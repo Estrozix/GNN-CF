@@ -18,7 +18,7 @@ def compute_prior(params: Sequence[Parameter]) -> Tensor:
 
 class BPRLoss(_Loss):
 
-    def __init__(self, 
+    def __init__(self,
         reg_factor: float, 
     ) -> None:
         super().__init__()

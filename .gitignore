@@ -1,4 +1,6 @@
 /data/
 /refs/
 /out/
+/subset/
 __pycache__/
+.venv
